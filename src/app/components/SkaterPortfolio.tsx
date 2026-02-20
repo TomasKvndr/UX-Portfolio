@@ -145,9 +145,14 @@ export const SkaterPortfolio = () => {
                    <div className="px-4 py-2 border border-white/20 rounded-full text-xs font-mono uppercase hover:bg-white hover:text-black transition-colors cursor-pointer flex items-center gap-2">
                       <Activity size={14} /> Prototyping
                    </div>
-                   <div className="px-4 py-2 bg-[#D9FF00] text-black border border-[#D9FF00] rounded-full text-xs font-mono uppercase font-bold hover:bg-white hover:border-white transition-colors cursor-pointer flex items-center gap-2">
-                      <FileText size={14} /> View Resume / CV
-                   </div>
+                   <a 
+   href="https://portfolio-cv-3.vercel.app/" 
+   target="_blank" 
+   rel="noopener noreferrer" 
+   className="px-4 py-2 bg-[#D9FF00] text-black border border-[#D9FF00] rounded-full text-xs font-mono uppercase font-bold hover:bg-white hover:border-white transition-colors cursor-pointer flex items-center gap-2"
+>
+   <FileText size={14} /> View Resume / CV
+</a>
                </div>
             </div>
          </div>
