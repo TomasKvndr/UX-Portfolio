@@ -7,10 +7,6 @@ import { ArrowUpRight, Terminal, Activity, Globe, FileText } from 'lucide-react'
   ASSETS & DATA
   =============================================================================
 */
-import imgPrime from "figma:asset/a4304c5fb9b5fe18275be892f453c522dc551a72.png";
-import imgRacesim from "figma:asset/eb8fb237294edd5e90f3c141f2d60050de4f46bc.png";
-import imgFarmavet from "figma:asset/c392876228d7e5961e74f6ce92293298f44526ce.png";
-import imgKreslo from "figma:asset/4f478bc71c574be8a4c0858a70427cd5ce79a20e.png";
 
 
 const ASSETS = {
@@ -25,7 +21,7 @@ const PROJECTS = [
     tech: "DESIGN SYSTEM / VARIABLES",
     year: "2026",
     desc: "Comprehensive design system for medical clinics.",
-    img: imgPrime,
+    image: ASSETS.hero,
     special: true
   },
   {
@@ -35,7 +31,7 @@ const PROJECTS = [
     tech: "WEB APP / BOOKING FLOW",
     year: "2025",
     desc: "Booking system and simulator interface.",
-    img: imgRacesim
+    image: ASSETS.hero,
   },
   {
     id: "03",
@@ -44,7 +40,7 @@ const PROJECTS = [
     tech: "UX/UI / PROTOTYPING",
     year: "2025",
     desc: "E-commerce platform for veterinary supplies.",
-    img: imgFarmavet
+    image: ASSETS.hero,
   },
   {
     id: "04",
@@ -53,7 +49,7 @@ const PROJECTS = [
     tech: "REBRANDING / LOGO",
     year: "2024",
     desc: "Rebranding and visual identity for furniture.",
-    img: imgKreslo
+    image: ASSETS.hero,
   }
 ];
 
