@@ -230,7 +230,7 @@ export const SkaterPortfolio = () => {
                            <ArrowUpRight className="opacity-0 group-hover:opacity-100 transition-opacity" size={20} />
                         </div>
                      </div>
-                  </div>
+                  </a>
                ))}
 
                {/* Fill remaining space if list is short */}
