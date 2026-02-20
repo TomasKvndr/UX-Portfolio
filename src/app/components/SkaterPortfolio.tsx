@@ -118,14 +118,11 @@ export const SkaterPortfolio = () => {
                      <p>BASED IN BRATISLAVA</p>
                      <p>OPEN FOR WORK</p>
                   </div>
-                  <a 
-  href="https://portfolio-cv-3.vercel.app/" 
-  target="_blank" 
-  rel="noopener noreferrer" 
-  className="flex items-center gap-2 px-3 py-1.5 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full transition-colors cursor-pointer group"
->
-  <FileText size={14} className="text-[#D9FF00]" />
-  <span className="hidden sm:inline">READ MY CV</span>
+
+<a href="https://portfolio-cv-3.vercel.app/" target="_blank" rel="noopener noreferrer">
+                 <button className="bg-black text-[#D9FF00] px-4 py-2 font-bold hover:bg-opacity-80 transition-opacity">
+                     READ MY CV ↗
+                  </button>
 </a>
                </div>
             </div>
