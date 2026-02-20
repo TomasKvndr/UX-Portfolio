@@ -47,6 +47,7 @@ const PROJECTS = [
     tech: "WEB APP / BOOKING FLOW",
     year: "2025",
     desc: "Booking system and simulator interface.",
+    link: "https://www.racesim.sk/",
     img: imgRacesim
   },
   {
@@ -65,6 +66,7 @@ const PROJECTS = [
     tech: "REBRANDING / LOGO",
     year: "2024",
     desc: "Rebranding and visual identity for Barber studio.",
+    link: "https://www.kreslobarber.sk/",
     img: imgKreslo
   }
 ];
