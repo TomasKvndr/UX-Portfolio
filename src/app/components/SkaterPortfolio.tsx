@@ -9,10 +9,10 @@ import { ArrowUpRight, Terminal, Activity, Globe, FileText } from 'lucide-react'
 */
 
 
-import primeclinic from "@/assets/primeclinic.png";
-import racesim from "@/assets/racesim.png";
-import farmavet from "@/assets/farmavet.png";
-import kreslo from "@/assets/kreslo.png";
+import primeclinic from "../../assets/primeclinic.png";
+import racesim from "../../assets/racesim.png";
+import farmavet from "../../assets/farmavet.png";
+import kreslo from "../../assets/kreslo.png";
 
 
 const ASSETS = {
