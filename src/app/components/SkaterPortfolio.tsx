@@ -16,11 +16,11 @@ import imgRacesim from "../../assets/racesim.png";
 import imgFarmavet from "../../assets/farmavet.png";
 import imgKreslo from "../../assets/kreslo.png";
 
-const imgPrime = "https://images.unsplash.com/photo-1764727291644-5dcb0b1a0375?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBtZWRpY2FsJTIwY2xpbmljJTIwaW50ZXJpb3IlMjBtaW5pbWFsJTIwZGVzaWdufGVufDF8fHx8MTc3MTU1MDU4Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
+/*const imgPrime = "https://images.unsplash.com/photo-1764727291644-5dcb0b1a0375?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBtZWRpY2FsJTIwY2xpbmljJTIwaW50ZXJpb3IlMjBtaW5pbWFsJTIwZGVzaWdufGVufDF8fHx8MTc3MTU1MDU4Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
 const imgRacesim = "https://images.unsplash.com/photo-1743649978995-c76212449e15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyYWNpbmclMjBzaW11bGF0b3IlMjBjb2NrcGl0JTIwZjElMjBzY3JlZW58ZW58MXx8fHwxNzcxNTUwNTgyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
 const imgFarmavet = "https://images.unsplash.com/photo-1598285385411-c5952310875e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2ZXRlcmluYXJ5JTIwc3VwcGxpZXMlMjBwaGFybWFjeSUyMHNoZWxmJTIwbW9kZXJufGVufDF8fHx8MTc3MTU1MDU4Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
 const imgKreslo = "https://images.unsplash.com/photo-1670222061552-c273834aee0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcm1jaGFpciUyMGZ1cm5pdHVyZSUyMGJyYW5kaW5nJTIwc3R1ZGlvfGVufDF8fHx8MTc3MTU1MDU4Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
-
+*/
 
 
 const ASSETS = {
