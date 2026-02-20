@@ -136,7 +136,7 @@ export const SkaterPortfolio = () => {
                
                <div className="relative z-10 max-w-2xl">
                   <p className="text-2xl md:text-3xl font-bold leading-tight uppercase mb-8">
-                     Precision Product Design for <span className="text-[#D9FF00] bg-white/10 px-2">Complex Systems</span>.
+                     Precision Product Design for <span className="text-[#D9FF00] bg-white/10 px-2">Complex Systems</span>
                   </p>
                   <p className="text-gray-400 text-lg max-w-lg leading-relaxed mb-8">
                      I don't just design for looks—I design for structure and conversion. Transforming complex business requirements into intuitive, developer-ready user interfaces.
