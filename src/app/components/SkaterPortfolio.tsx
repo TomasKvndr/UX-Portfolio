@@ -20,7 +20,7 @@ import imgKreslo from "../../assets/kreslo.png";
 const imgPrime = "https://i.ibb.co/xKdrNDr1/primeclinic.png";
 const imgRacesim = "https://i.ibb.co/84b6Z2j3/racesim.png";
 const imgFarmavet = "https://i.ibb.co/tpsPP3QH/farmavet.png"
-const imgKreslo = "https://i.ibb.co/hJvw1yB7/kreslo-Finalblack.png";
+const imgKreslo = "https://i.ibb.co/1GCLvpLQ/kreslo.png";
 
 
 
@@ -37,7 +37,7 @@ const PROJECTS = [
     year: "2026",
     desc: "Comprehensive design system for medical clinics.",
     img: imgPrime,
-    link: "/ux-case-study.pdf",
+    link: "/prime-clinic-ux-study.pdf",
     special: true
   },
   {
