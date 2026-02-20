@@ -21,7 +21,7 @@ const PROJECTS = [
     tech: "DESIGN SYSTEM / VARIABLES",
     year: "2026",
     desc: "Comprehensive design system for medical clinics.",
-    image: ASSETS.hero,
+    image: "/primeclinic.png",
     special: true
   },
   {
@@ -31,7 +31,7 @@ const PROJECTS = [
     tech: "WEB APP / BOOKING FLOW",
     year: "2025",
     desc: "Booking system and simulator interface.",
-    image: ASSETS.hero,
+    image: "/racesim.png",
   },
   {
     id: "03",
@@ -40,7 +40,7 @@ const PROJECTS = [
     tech: "UX/UI / PROTOTYPING",
     year: "2025",
     desc: "E-commerce platform for veterinary supplies.",
-    image: ASSETS.hero,
+    image: "/farmavet.png",
   },
   {
     id: "04",
@@ -49,7 +49,7 @@ const PROJECTS = [
     tech: "REBRANDING / LOGO",
     year: "2024",
     desc: "Rebranding and visual identity for furniture.",
-    image: ASSETS.hero,
+    image: "/kreslo.png",
   }
 ];
 
