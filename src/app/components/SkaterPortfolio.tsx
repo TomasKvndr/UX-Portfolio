@@ -20,7 +20,7 @@ import imgKreslo from "../../assets/kreslo.png";
 const imgPrime = "https://i.ibb.co/xKdrNDr1/primeclinic.png";
 const imgRacesim = "https://i.ibb.co/84b6Z2j3/racesim.png";
 const imgFarmavet = "https://i.ibb.co/tpsPP3QH/farmavet.png"
-const imgKreslo = "https://i.ibb.co/jPMbkKbw/kreslo.png";
+const imgKreslo = "https://i.ibb.co/hJvw1yB7/kreslo-Finalblack.png";
 
 
 
