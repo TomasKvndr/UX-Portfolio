@@ -36,6 +36,7 @@ const PROJECTS = [
     year: "2026",
     desc: "Comprehensive design system for medical clinics.",
     img: imgPrime,
+    link: "/ux-case-study.pdf",
     special: true
   },
   {
@@ -196,9 +197,12 @@ export const SkaterPortfolio = () => {
             {/* Right Col: The List (The "Dinner Service" Style) */}
             <div className="flex flex-col">
                {PROJECTS.map((project) => (
-                  <div 
+                  <a 
+                     href={project.link} 
+                     target="_blank" 
+                     rel="noopener noreferrer"
                      key={project.id}
-                     className="group border-b border-white/20 last:border-b-0 relative overflow-hidden cursor-pointer"
+                     className="group border-b border-white/20 last:border-b-0 relative overflow-hidden cursor-pointer block no-underline"
                      onMouseEnter={() => setActiveProject(project.id)}
                   >
                      {/* Hover Background */}
