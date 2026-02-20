@@ -7,6 +7,10 @@ import { ArrowUpRight, Terminal, Activity, Globe, FileText } from 'lucide-react'
   ASSETS & DATA
   =============================================================================
 */
+import primeclinic from "../assets/primeclinic.png";
+import racesim from "../assets/racesim.png";
+import farmavet from "../assets/farmavet.png";
+import kreslo from "../assets/kreslo.png";
 
 
 const ASSETS = {
@@ -21,7 +25,7 @@ const PROJECTS = [
     tech: "DESIGN SYSTEM / VARIABLES",
     year: "2026",
     desc: "Comprehensive design system for medical clinics.",
-    image: "/primeclinic.png",
+    image: primeclinic,
     special: true
   },
   {
@@ -31,7 +35,7 @@ const PROJECTS = [
     tech: "WEB APP / BOOKING FLOW",
     year: "2025",
     desc: "Booking system and simulator interface.",
-    image: "/racesim.png",
+    image: racesim
   },
   {
     id: "03",
@@ -40,7 +44,7 @@ const PROJECTS = [
     tech: "UX/UI / PROTOTYPING",
     year: "2025",
     desc: "E-commerce platform for veterinary supplies.",
-    image: "/farmavet.png",
+    image: farmavet
   },
   {
     id: "04",
@@ -49,7 +53,7 @@ const PROJECTS = [
     tech: "REBRANDING / LOGO",
     year: "2024",
     desc: "Rebranding and visual identity for furniture.",
-    image: "/kreslo.png",
+    image: kreslo
   }
 ];
 
