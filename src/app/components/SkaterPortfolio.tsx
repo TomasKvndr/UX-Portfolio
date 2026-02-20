@@ -8,11 +8,19 @@ import { ArrowUpRight, Terminal, Activity, Globe, FileText } from 'lucide-react'
   =============================================================================
 */
 
+// NOTE: To use local assets, place the files in /src/assets/ and uncomment the imports below.
+// Currently using remote URLs to prevent build errors since the local files don't exist yet.
 
-import primeclinic from "../../assets/primeclinic.png";
-import racesim from "../../assets/racesim.png";
-import farmavet from "../../assets/farmavet.png";
-import kreslo from "../../assets/kreslo.png";
+// import imgPrime from "../../assets/prime-clinic.png";
+// import imgRacesim from "../../assets/racesim.png";
+// import imgFarmavet from "../../assets/farmavet.png";
+// import imgKreslo from "../../assets/kreslo.png";
+
+const imgPrime = "https://images.unsplash.com/photo-1764727291644-5dcb0b1a0375?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBtZWRpY2FsJTIwY2xpbmljJTIwaW50ZXJpb3IlMjBtaW5pbWFsJTIwZGVzaWdufGVufDF8fHx8MTc3MTU1MDU4Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
+const imgRacesim = "https://images.unsplash.com/photo-1743649978995-c76212449e15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyYWNpbmclMjBzaW11bGF0b3IlMjBjb2NrcGl0JTIwZjElMjBzY3JlZW58ZW58MXx8fHwxNzcxNTUwNTgyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
+const imgFarmavet = "https://images.unsplash.com/photo-1598285385411-c5952310875e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2ZXRlcmluYXJ5JTIwc3VwcGxpZXMlMjBwaGFybWFjeSUyMHNoZWxmJTIwbW9kZXJufGVufDF8fHx8MTc3MTU1MDU4Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
+const imgKreslo = "https://images.unsplash.com/photo-1670222061552-c273834aee0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcm1jaGFpciUyMGZ1cm5pdHVyZSUyMGJyYW5kaW5nJTIwc3R1ZGlvfGVufDF8fHx8MTc3MTU1MDU4Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
+
 
 
 const ASSETS = {
@@ -27,7 +35,7 @@ const PROJECTS = [
     tech: "DESIGN SYSTEM / VARIABLES",
     year: "2026",
     desc: "Comprehensive design system for medical clinics.",
-    image: primeclinic,
+    img: imgPrime,
     special: true
   },
   {
@@ -37,7 +45,7 @@ const PROJECTS = [
     tech: "WEB APP / BOOKING FLOW",
     year: "2025",
     desc: "Booking system and simulator interface.",
-    image: racesim
+    img: imgRacesim
   },
   {
     id: "03",
@@ -46,7 +54,7 @@ const PROJECTS = [
     tech: "UX/UI / PROTOTYPING",
     year: "2025",
     desc: "E-commerce platform for veterinary supplies.",
-    image: farmavet
+    img: imgFarmavet
   },
   {
     id: "04",
@@ -55,7 +63,7 @@ const PROJECTS = [
     tech: "REBRANDING / LOGO",
     year: "2024",
     desc: "Rebranding and visual identity for furniture.",
-    image: kreslo
+    img: imgKreslo
   }
 ];
 
@@ -108,11 +116,9 @@ export const SkaterPortfolio = () => {
                      <p>BASED IN BRATISLAVA</p>
                      <p>OPEN FOR WORK</p>
                   </div>
-                  <a href="https://portfolio-cv-3.vercel.app" target="_blank" style={{ textDecoration: 'none', display: 'block' }}>
                   <button className="bg-black text-[#D9FF00] px-4 py-2 font-bold hover:bg-opacity-80 transition-opacity">
                      READ MY CV ↗
                   </button>
-                  </a>
                </div>
             </div>
 
@@ -137,11 +143,9 @@ export const SkaterPortfolio = () => {
                    <div className="px-4 py-2 border border-white/20 rounded-full text-xs font-mono uppercase hover:bg-white hover:text-black transition-colors cursor-pointer flex items-center gap-2">
                       <Activity size={14} /> Prototyping
                    </div>
-                   <a href="https://portfolio-cv-3.vercel.app" target="_blank" style={{ textDecoration: 'none', display: 'block' }}>
-<div className="px-4 py-2 bg-[#D9FF00] text-black rounded-full text-xs font-mono uppercase font-bold flex items-center justify-center gap-2 cursor-pointer">
-<FileText size={16} />
-<span>View Resume</span>
-</div></a>
+                   <div className="px-4 py-2 bg-[#D9FF00] text-black border border-[#D9FF00] rounded-full text-xs font-mono uppercase font-bold hover:bg-white hover:border-white transition-colors cursor-pointer flex items-center gap-2">
+                      <FileText size={14} /> View Resume / CV
+                   </div>
                </div>
             </div>
          </div>
