@@ -62,7 +62,7 @@ const PROJECTS = [
     role: "BRAND IDENTITY",
     tech: "REBRANDING / LOGO",
     year: "2024",
-    desc: "Rebranding and visual identity for furniture.",
+    desc: "Rebranding and visual identity for Barber studio.",
     img: imgKreslo
   }
 ];
