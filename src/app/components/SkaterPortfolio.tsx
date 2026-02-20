@@ -102,9 +102,11 @@ export const SkaterPortfolio = () => {
                      <p>BASED IN BRATISLAVA</p>
                      <p>OPEN FOR WORK</p>
                   </div>
+                  <a href="https://portfolio-cv-3.vercel.app" target="_blank" style={{ textDecoration: 'none', display: 'block' }}>
                   <button className="bg-black text-[#D9FF00] px-4 py-2 font-bold hover:bg-opacity-80 transition-opacity">
                      READ MY CV ↗
                   </button>
+                  </a>
                </div>
             </div>
 
