@@ -228,32 +228,30 @@ export const SkaterPortfolio = () => {
                            <h4 className="text-3xl md:text-5xl font-black uppercase tracking-tight flex items-center gap-4">
                               {project.title}
                               {project.special && (
-                                 
-                                 <a 
-   href="https://test-debug-63257048.figma.site/#" 
-   target="_blank" 
-   rel="noopener noreferrer"
-   className="text-[10px] bg-white text-black px-2 py-1 rounded-full font-bold uppercase tracking-widest transition-colors hover:bg-black hover:text-[#D9FF00] cursor-pointer inline-block"
->
-   CLICK HERE FOR LIVE DEMO
-</a>
-                                 
-                              )}
-                           </h4>
-                           <h4 className="text-3xl md:text-5xl font-black uppercase tracking-tight flex items-center gap-4">
-                              {project.title}
-                              {project.special && (
-                                 
-                                 <a 
-   href="https://test-debug-63257048.figma.site/#" 
-   target="_blank" 
-   rel="noopener noreferrer"
-   className="text-[10px] bg-white text-black px-2 py-1 rounded-full font-bold uppercase tracking-widest transition-colors hover:bg-black hover:text-[#D9FF00] cursor-pointer inline-block"
->
-   CASE STUDY AVAILABLE
-</a>
-                                 
-                              )}
+   <div className="flex flex-wrap items-center gap-2 ml-4">
+      {/* Tlačidlo pre Case Study (PDF) */}
+      <a 
+         href={project.link} 
+         target="_blank" 
+         rel="noopener noreferrer"
+         className="text-[10px] bg-white text-black px-2 py-1 rounded-full font-bold uppercase tracking-widest transition-colors hover:bg-black hover:text-[#D9FF00] cursor-pointer inline-block"
+      >
+         CASE STUDY AVAILABLE
+      </a>
+      
+      {/* Tlačidlo pre Live Demo (Figma) */}
+      <a 
+         href="https://test-debug-63257048.figma.site/#" 
+         target="_blank" 
+         rel="noopener noreferrer"
+         className="text-[10px] bg-white text-black px-2 py-1 rounded-full font-bold uppercase tracking-widest transition-colors hover:bg-black hover:text-[#D9FF00] cursor-pointer inline-block"
+      >
+         CLICK HERE FOR LIVE DEMO
+      </a>
+
+      
+   </div>
+)}
                            </h4>
                         </div>
 
