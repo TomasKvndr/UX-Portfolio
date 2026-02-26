@@ -37,7 +37,6 @@ const PROJECTS = [
     year: "2026",
     desc: "Comprehensive design system for medical clinics.",
     img: imgPrime,
-    link: "",
     special: true
   },
   {
@@ -231,7 +230,7 @@ export const SkaterPortfolio = () => {
    <div className="flex flex-wrap items-center gap-2 ml-4">
       {/* Tlačidlo pre Case Study (PDF) */}
       <a 
-         href={project.link} 
+         href={"public/prime-clinic-ux-study.pdf"} 
          target="_blank" 
          rel="noopener noreferrer"
          className="text-[10px] bg-white text-black px-2 py-1 rounded-full font-bold uppercase tracking-widest transition-colors hover:bg-black hover:text-[#D9FF00] cursor-pointer inline-block"
