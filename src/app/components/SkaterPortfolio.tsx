@@ -228,9 +228,15 @@ export const SkaterPortfolio = () => {
                            <h4 className="text-3xl md:text-5xl font-black uppercase tracking-tight flex items-center gap-4">
                               {project.title}
                               {project.special && (
-                                 <span className="text-[10px] bg-white text-black px-2 py-1 rounded-full font-bold uppercase tracking-widest group-hover:bg-black group-hover:text-[#D9FF00]">
-                                    Case Study
-                                 </span>
+                                 <a 
+   href="https://test-debug-63257048.figma.site/#" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   className="text-[10px] bg-white text-black px-2 py-1 rounded-full font-bold uppercase tracking-widest transition-colors hover:bg-black hover:text-[#D9FF00] cursor-pointer inline-block"
+>
+   EXPLORE LIVE DEMO
+</a>
+                                 
                               )}
                            </h4>
                         </div>
