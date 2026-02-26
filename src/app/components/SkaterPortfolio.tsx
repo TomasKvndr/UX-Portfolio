@@ -37,7 +37,7 @@ const PROJECTS = [
     year: "2026",
     desc: "Comprehensive design system for medical clinics.",
     img: imgPrime,
-    link: "/prime-clinic-ux-study.pdf",
+    link: "",
     special: true
   },
   {
@@ -246,7 +246,7 @@ export const SkaterPortfolio = () => {
          rel="noopener noreferrer"
          className="text-[10px] bg-white text-black px-2 py-1 rounded-full font-bold uppercase tracking-widest transition-colors hover:bg-black hover:text-[#D9FF00] cursor-pointer inline-block"
       >
-         CLICK HERE FOR LIVE DEMO
+         VIEW LIVE PROTOTYPE
       </a>
 
       
@@ -296,7 +296,7 @@ export const SkaterPortfolio = () => {
             </div>
 
             <div className="hidden md:block">
-               TOMAS.K — REV.2026
+               TOMAS.K — @2026
             </div>
 
          </div>
